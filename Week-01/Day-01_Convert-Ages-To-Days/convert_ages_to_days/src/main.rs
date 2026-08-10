@@ -1,27 +1,9 @@
-use std::io;
+fn calc_age(age: i32) -> i32 {
+    age * 365
+}
 
 fn main() {
-
-    loop {
-
-    println!("Please input your age in years!");
-
-    let mut guess = String::new();
-
-    
-        io::stdin()
-            .read_line(&mut guess)
-            .expect("Could not read age. Make you an integer is used.");
-        
-        let guess: u32 =  match guess.trim().parse() {
-            Ok(num) => num, 
-            Err(_) => continue,
-        };
-
-        let age: u32 = guess * 365;
-
-        println!("You are roughly {age} days old!")
-
-    }
-
-}
+    assert_eq!(calc_age(65), 23725);
+    assert_eq!(calc_age(20), 7300);
+    assert_eq!(calc_age(0), 0);
+}1
