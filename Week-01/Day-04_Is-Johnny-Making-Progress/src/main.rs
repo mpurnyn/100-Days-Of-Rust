@@ -1,4 +1,4 @@
-
+// copywrite Marat Purnyn 2026
 fn progress_count(miles: Vec<i32>) -> i32 {
     print!("saturday miles: {:?}\n", miles);
     let mut count = 0;

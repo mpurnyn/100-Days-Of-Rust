@@ -1,3 +1,5 @@
+// copywrite Marat Purnyn 2026
+
 fn find_nemo(str: &str) -> String {
     let v: Vec<&str> = str.split(' ').collect();
     for (i, word) in v.iter().enumerate() {

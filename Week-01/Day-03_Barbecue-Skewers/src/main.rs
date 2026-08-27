@@ -1,4 +1,4 @@
-
+// copywrite Marat Purnyn 2026
 fn is_veg(skewer: &str) -> bool {
     for c in skewer.chars() {
         if c == 'x' {

@@ -1,3 +1,5 @@
+// copywrite Marat Purnyn 2026
+
 fn count_pairs(socks: &str) -> i8 {
     let mut count = 0;
     let mut pairs: [bool; 26] = [false; 26];

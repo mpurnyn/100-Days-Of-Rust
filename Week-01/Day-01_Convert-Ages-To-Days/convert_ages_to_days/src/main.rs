@@ -1,3 +1,5 @@
+// copywrite Marat Purnyn 2026
+
 fn calc_age(age: i32) -> i32 {
     age * 365
 }
